@@ -1,0 +1,11 @@
+[package]
+name = "basecamp_04"
+version = "0.1.0"
+
+[dependencies]
+
+[scripts]
+test = "cairo-test --starknet ."
+test_single= "cairo-test --starknet . -f"
+
+[[target.starknet-contract]]
